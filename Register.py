@@ -29,7 +29,7 @@ client = Client(account_sid, auth_token)
 
 # POOL = redis.ConnectionPool(host='localhost', port=6379, db=0)
 POOL = redis.Redis(
-    host= '172.16.0.76',
+    host= '172.16.0.154',
     port= '6379')
 print("REdis connection success", POOL)
 
